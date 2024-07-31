@@ -1,0 +1,49 @@
+.profile-container {
+    background-color: #FFFFFF; /* Couleur d'arrière-plan */
+    font-family: 'Roboto', sans-serif; /* Police principale */
+    color: #6C757D; /* Couleur secondaire pour le texte */
+}
+
+h1 {
+    color: #007BFF; /* Couleur principale pour les en-têtes */
+}
+
+a {
+    color: #007BFF; /* Couleur principale pour les liens */
+}
+
+button {
+    background-color: #007BFF; /* Couleur principale pour les boutons */
+    color: #FFFFFF; /* Texte blanc sur les boutons */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Couleur de survol pour les boutons */
+}
+
+/* Logo */
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px; /* Ajustez la taille selon vos besoins */
+}
+
+/* Styles pour les images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles pour les citations */
+blockquote {
+    font-family: 'Arial', sans-serif; /* Police secondaire pour les citations */
+    color: #6C757D; /* Couleur secondaire pour le texte des citations */
+    border-left: 4px solid #6C757D; /* Bordure pour les citations */
+    padding-left: 10px;
+    margin: 10px 0;
+}
